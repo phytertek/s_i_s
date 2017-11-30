@@ -1,0 +1,16 @@
+{
+  "name": "s_i_s",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/phytertek/s_i_s.git",
+  "author": "phytertek <ryan.phytertek@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "run-p -l dev:server dev:client",
+    "dev:server": "cd server && yarn start:dev",
+    "dev:client": "cd client && yarn start"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.2"
+  }
+}
