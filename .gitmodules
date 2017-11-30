@@ -1,0 +1,9 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/phytertek/sis-client.git
+[submodule "server"]
+	path = server
+	url = https://github.com/phytertek/sis-server.git
+[submodule "repo-test-reporter"]
+	path = repo-test-reporter
+	url = https://github.com/phytertek/sis-repo-test-reporter.git
